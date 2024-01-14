@@ -278,3 +278,19 @@
     align-items: center;
     padding-top: 100px;
 }
+
+@media screen and (max-width: 600px)
+{
+    .header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 600px;
+    height: 20px;
+    padding: 10px;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}

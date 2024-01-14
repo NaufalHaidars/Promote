@@ -1,0 +1,280 @@
+*, html, body {
+    font-family: 'comic sans ms';
+    text-decoration: none;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 15%;
+    padding: 15px;
+    background: black;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+}
+
+.header p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    padding-left: 1%;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.logo {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 35px;
+    padding-left: 1%;
+    font-weight: bold;
+    color: antiquewhite;
+}
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    font-size: 150%;
+    color: wheat;
+}
+
+.navbar a {
+    justify-content: space-between;
+    padding: 10px;
+    color: whitesmoke;
+}
+
+.navbar a:hover {
+    color: crimson;
+}
+.navbar a {
+    transition: all 0.2s ease-in-out;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    padding-top: 7%;
+    padding-bottom: 20px;
+}
+
+.home h1,h3 {
+    font-size: 150%;
+    line-height: 100%;
+    margin-left: 60px;
+    padding-bottom: 20px;
+}
+
+.home p {
+    font-size: 135%;
+    text-align: justify;
+    margin-right: 1%;
+    margin-left: 60px;
+}
+
+.home img {
+    width: 50%;
+    margin: 30px;
+    
+}
+
+.services {
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 100px;
+    text-align: center;
+    background: #f0f0f0;
+    border-bottom: 2px solid #222;
+}
+
+.headSs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.headS h1 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.kolom {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+}
+
+.kolom h1 {
+    margin: 30px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.isi {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+}
+
+.isi h2 {
+    margin: 1.5rem 0;
+    font-size: 25px;
+}
+
+.kolom1 {
+    padding: 3rem 2rem;
+    margin: 30px;
+    background: #c9c9c9;
+    border-radius: 5px;
+}
+
+.kolom2 {
+    padding: 3rem 2rem;
+    margin: 30px;
+    background: #c9c9c9;
+    border-radius: 5px;
+}
+
+.kolom2 .ui2 svg {
+    background: antiquewhite;
+}
+
+.kolom3 {
+    padding: 3rem 2rem;
+    margin: 30px;
+    background: #c9c9c9;
+    border-radius: 5px;
+}
+
+.portfolio {
+    display: flex;
+    padding-bottom: 30px;
+    border-bottom: 2px solid #222;
+}
+
+.content {
+    margin: 30px;
+}
+
+.as {
+    padding-bottom: 20px;
+}
+
+.portfolio img {
+    width: 300px;
+}
+
+.imgF {
+    padding: 15px;
+    background: #c9c9c9;
+    border-radius: 10px;
+}
+
+.info1 {
+    width: 300px;
+}
+
+.info1 p {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 100;
+    text-align: justify;
+    line-height: auto;
+    color: grey;
+}
+
+.title1 {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+.title1 h4 {
+    padding-bottom: 20px;
+}
+
+.title1 a:hover {
+    fill: blue;
+}
+
+.title1 a {
+    transition: 0.2s ease-in-out;
+}
+
+.contact {
+    padding-top: 0;
+    padding-bottom: 10px;
+    background: #222;
+}
+
+.isian {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    
+}
+
+.isian h2 {
+    font-size: 40px;
+    color: black;
+}
+
+.medsoslist {
+    display: flex;
+    padding-top: 20px;
+    margin: 0 30%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 30px;
+}
+
+.medsoslist .ig svg {
+    width: 30px;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.medsoslist .ig {
+    padding: 15px;
+    font-size: 30px;
+    color: black;
+    background: crimson;
+    border-radius: 10px;
+}
+
+.medsoslist .wa svg {
+    width: 30px;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.medsoslist .wa {
+    padding: 15px;
+    color: black;
+    background: crimson;
+    border-radius: 10px;
+}
+
+.medsoslist a:hover {
+    color: blue;
+}
+
+.copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}

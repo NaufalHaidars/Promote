@@ -294,3 +294,17 @@
     align-items: center;
     z-index: 100;
 }
+
+.navbar {
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    font-size: 100%;
+    color: wheat;
+}
+
+.navbar a {
+    justify-content: space-between;
+    padding: 10px;
+    color: whitesmoke;
+}

@@ -10,9 +10,9 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 70%;
+    width: 100%;
     height: 15%;
-    padding: 10px;
+    padding: 15px;
     background: black;
     justify-content: space-between;
     align-items: center;
@@ -59,15 +59,15 @@
 .home {
     display: flex;
     align-items: center;
-    margin: 10px;
-    padding-top: 12%;
+    margin: auto;
+    padding-top: 10%;
     padding-bottom: 20px;
 }
 
 .home h1,h3 {
     font-size: 150%;
     line-height: 100%;
-    margin-left: 40px;
+    margin-left: 60px;
     padding-bottom: 20px;
 }
 
@@ -115,7 +115,7 @@
 
 .kolom h1 {
     margin: 30px;
-    font-size: 15px;
+    font-size: 30px;
     font-weight: bold;
 }
 
@@ -125,7 +125,7 @@
     gap: 3rem;
     justify-content: center;
     align-items: center;
-    margin-left: 50px;
+    margin-left: 5px;
 }
 
 .isi h2 {
@@ -137,7 +137,7 @@
     padding: 3rem 2rem;
     margin: 30px;
     background: #c9c9c9;
-    border-radius: 5px;
+    border-radius: 10px;
 }
 
 .kolom2 {
@@ -145,6 +145,7 @@
     margin: 30px;
     background: #c9c9c9;
     border-radius: 5px;
+    border-radius: 10px
 }
 
 .kolom2 .ui2 svg {
@@ -156,6 +157,7 @@
     margin: 30px;
     background: #c9c9c9;
     border-radius: 5px;
+    border-radius: 10px
 }
 
 .portfolio {
@@ -229,7 +231,7 @@
 
 .isian h2 {
     font-size: 40px;
-    color: black;
+    color: antiquewhite;
 }
 
 .medsoslist {
@@ -282,147 +284,323 @@
 @media screen and (max-width: 600px)
 {
     .header {
-    display: flex;
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 400px;
-    height: 60px;
-    padding: 10px;
-    background: black;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-}
-
-.header p {
-    padding-left:10px;
-}
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 10%;
+        padding: 15px;
+        background: black;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
     
-    .navbar {
-    justify-content: space-between;
-    align-items: center;
-    padding: 15px;
-    font-size: 70%;
-    color: wheat;
-}
+    .header p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        padding-left: 0;
+        font-weight: bold;
+        color: antiquewhite;
+    }
 
+    .logo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        padding-left: 1%;
+        font-weight: bold;
+        color: antiquewhite;
+    }
+
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0;
+        font-size: 85%;
+        color: wheat;
+    }
+    
     .navbar a {
-    justify-content: space-between;
-    padding: 10px;
-    color: whitesmoke;
-}
+        justify-content: space-between;
+        padding: 5px;
+        color: whitesmoke;
+    }
 
     .home {
-    display: flex;
-    align-items: center;
-    margin: 10px;
-    padding-top: 20%;
-    padding-bottom: 20px;
-    line-height: auto;
-}
-
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0;
+        padding-top: 8%;
+        padding-bottom: 20px;
+    }
+    
     .home h1,h3 {
-    font-size: 80%;
-    line-height: 80%;
-    margin-left: 5px;
-    padding-bottom: 20px;
-}
-
+        font-size: 100%;
+        line-height: auto;
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+    
     .home p {
-    font-size: 80%;
-    text-align: justify;
-    margin-right: 1%;
-    margin-left: 5px;
-}
-
+        font-size: 100%;
+        text-align: justify;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
     .home img {
-        display:flex;
-        width: 50%;
+        width: 100%;
         margin: 30px;
+        
+    }
+
+    .portfolio {
+        display: flex;
+        padding-bottom: 30px;
+        border-bottom: 2px solid #222;
+    }
+
+    .content {
+        margin: 25px;
+    }
+    
+    .as {
+        padding-bottom: 20px;
+    }
+    
+    .portfolio img {
+        width: 300px;
+    }
+    
+    .imgF {
+        padding: 15px;
+        background: #c9c9c9;
+        border-radius: 10px;
+    }
+    
+
+    .contact {
+        padding-top: 0;
+        padding-bottom: 10px;
+        background: #222;
+    }
+    
+    .isian {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        
+    }
+    
+    .isian h2 {
+        font-size: 40px;
+        color: antiquewhite;
+    }
+    
+    .medsoslist {
+        display: flex;
+        padding-top: 20px;
+        margin: 0 10%;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+    }
+    
+    .medsoslist .ig svg {
+        width: 30px;
+        margin: 0 0 0 0;
+        padding: 0;
+    }
+    
+    .medsoslist .ig {
+        padding: 6px;
+        font-size: 20px;
+        color: black;
+        background: crimson;
+        border-radius: 10px;
+    }
+    
+    .medsoslist .wa svg {
+        width: 30px;
+        margin: 0 0 0 0;
+        padding: 0;
+    }
+    
+    .medsoslist .wa {
+        padding: 6px;
+        font-size: 20px;
+        color: black;
+        background: crimson;
+        border-radius: 10px;
+    }
+    
+    .medsoslist a:hover {
+        color: blue;
+    }
     
 }
 
-.services {
-    justify-content: center;
-    align-items: center;
-    margin: 0;
-    padding-top: 20px;
-    padding-bottom: 100px;
-    text-align: center;
-    background: #f0f0f0;
-    border-bottom: 2px solid #222;
-}
+@media screen and (max-height: 600px)
+{
+    .header {
+        display: flex;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 15%;
+        padding: 15px;
+        background: black;
+        justify-content: space-between;
+        align-items: center;
+        z-index: 100;
+    }
+    
+    .header p {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 25px;
+        padding-left: 0;
+        font-weight: bold;
+        color: antiquewhite;
+    }
 
-.isi h2 {
-    font-size: 14px;
-}
+    .logo {
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 10px;
+        padding-left: 1%;
+        font-weight: bold;
+        color: antiquewhite;
+    }
 
-.isi p {
-    font-size: 12px;
-    padding: 1rem;
-    margin: 10px;
-    background: #c9c9c9;
-    border-radius: 5px;
-}
+    .navbar {
+        justify-content: space-between;
+        align-items: center;
+        padding: 5px 0;
+        font-size: 85%;
+        color: wheat;
+    }
+    
+    .navbar a {
+        justify-content: space-between;
+        padding: 5px;
+        color: whitesmoke;
+    }
 
-.kolom2 {
-    padding: 1rem 2rem;
-    margin: 15px;
-    background: #c9c9c9;
-    border-radius: 5px;
-}
+    .home {
+        display: flex;
+        flex-direction: column-reverse;
+        align-items: center;
+        margin: 0;
+        padding-top: 3%;
+        padding-bottom: 20px;
+    }
+    
+    .home h1,h3 {
+        font-size: 100%;
+        line-height: auto;
+        margin-left: 20px;
+        padding-bottom: 20px;
+    }
+    
+    .home p {
+        font-size: 100%;
+        text-align: justify;
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    
+    .home img {
+        width: 100%;
+        margin: 30px;
+        
+    }
 
-.kolom2 .ui2 svg {
-    background: antiquewhite;
-}
+    .portfolio {
+        display: flex;
+        padding-bottom: 30px;
+        border-bottom: 2px solid #222;
+    }
 
-.kolom3 {
-    padding: 1rem 2rem;
-    margin: 10px;
-    background: #c9c9c9;
-    border-radius: 5px;
-}
+    .content {
+        margin: 25px;
+    }
+    
+    .as {
+        padding-bottom: 20px;
+    }
+    
+    .portfolio img {
+        width: 300px;
+    }
+    
+    .imgF {
+        padding: 15px;
+        background: #c9c9c9;
+        border-radius: 10px;
+    }
+    
 
-.isian h2 {
-    color: white;
-}
-
+    .contact {
+        padding-top: 0;
+        padding-bottom: 10px;
+        background: #222;
+    }
+    
+    .isian {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        
+    }
+    
+    .isian h2 {
+        font-size: 40px;
+        color: antiquewhite;
+    }
+    
     .medsoslist {
-    display: flex;
-    padding-top: 20px;
-    margin: 0 10%;
-    justify-content: space-between;
-    align-items: center;
-    font-size: 15px;
-}
-
+        display: flex;
+        padding-top: 20px;
+        margin: 0 20%;
+        justify-content: space-between;
+        align-items: center;
+        font-size: 30px;
+    }
+    
     .medsoslist .ig svg {
-    width: 30px;
-    margin: 0 0 0 0;
-    padding: 0;
-}
-
+        width: 30px;
+        margin: 0 0 0 0;
+        padding: 0;
+    }
+    
     .medsoslist .ig {
-    padding: 10px;
-    font-size: 15px;
-    padding-left:10px;
-    color: black;
-    background: crimson;
-    border-radius: 10px;
-}
-
+        padding: 6px;
+        font-size: 20px;
+        color: black;
+        background: crimson;
+        border-radius: 10px;
+    }
+    
     .medsoslist .wa svg {
-    width: 30px;
-    margin: 0 0 0 0;
-    padding: 0;
-}
-
+        width: 30px;
+        margin: 0 0 0 0;
+        padding: 0;
+    }
+    
     .medsoslist .wa {
-    padding: 10px;
-    color: black;
-    font-size: 15px;
-    padding-left: 10px;
-    background: crimson;
-    border-radius: 10px;
+        padding: 6px;
+        font-size: 20px;
+        color: black;
+        background: crimson;
+        border-radius: 10px;
+    }
+    
+    .medsoslist a:hover {
+        color: blue;
+    }
+    
 }

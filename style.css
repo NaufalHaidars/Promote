@@ -294,8 +294,7 @@
     align-items: center;
     z-index: 100;
 }
-
-.navbar {
+    .navbar {
     justify-content: space-between;
     align-items: center;
     padding: 15px;
@@ -303,14 +302,13 @@
     color: wheat;
 }
 
-.navbar a {
+    .navbar a {
     justify-content: space-between;
     padding: 10px;
-    padding-right: 20px;
     color: whitesmoke;
 }
 
-.home {
+    .home {
     display: flex;
     align-items: center;
     margin: 10px;
@@ -318,27 +316,27 @@
     padding-bottom: 20px;
 }
 
-.home h1,h3 {
+    .home h1,h3 {
     font-size: 150%;
     line-height: 100%;
     margin-left: 10px;
     padding-bottom: 20px;
 }
 
-.home p {
-    font-size: 100%;
+    .home p {
+    font-size: 80%;
     text-align: justify;
     margin-right: 1%;
     margin-left: 10px;
 }
 
-.home img {
+    .home img {
     width: 50%;
     margin: 30px;
     
 }
 
-.services {
+    .services {
     justify-content: center;
     align-items: center;
     margin: 0;
@@ -348,7 +346,8 @@
     background: #f0f0f0;
     border-bottom: 2px solid #222;
 }
-.medsoslist {
+
+    .medsoslist {
     display: flex;
     padding-top: 20px;
     margin: 0 10%;
@@ -357,13 +356,13 @@
     font-size: 15px;
 }
 
-.medsoslist .ig svg {
+    .medsoslist .ig svg {
     width: 10px;
     margin: 0 0 0 0;
     padding: 0;
 }
 
-.medsoslist .ig {
+    .medsoslist .ig {
     padding: 15px;
     font-size: 5px;
     color: black;
@@ -371,13 +370,13 @@
     border-radius: 10px;
 }
 
-.medsoslist .wa svg {
+    .medsoslist .wa svg {
     width: 15px;
     margin: 0 0 0 0;
     padding: 0;
 }
 
-.medsoslist .wa {
+    .medsoslist .wa {
     padding: 10px;
     color: black;
     font-size: 5px;

@@ -348,6 +348,31 @@
     border-bottom: 2px solid #222;
 }
 
+.kolom1 {
+    padding: 1rem 2rem;
+    margin: 15px;
+    background: #c9c9c9;
+    border-radius: 5px;
+}
+
+.kolom2 {
+    padding: 1rem 2rem;
+    margin: 15px;
+    background: #c9c9c9;
+    border-radius: 5px;
+}
+
+.kolom2 .ui2 svg {
+    background: antiquewhite;
+}
+
+.kolom3 {
+    padding: 3rem 2rem;
+    margin: 30px;
+    background: #c9c9c9;
+    border-radius: 5px;
+}
+
     .medsoslist {
     display: flex;
     padding-top: 20px;

@@ -330,14 +330,14 @@
 }
 
 .medsoslist .ig svg {
-    width: 15px;
+    width: 10px;
     margin: 0 0 0 0;
     padding: 0;
 }
 
 .medsoslist .ig {
     padding: 15px;
-    font-size: 15px;
+    font-size: 5px;
     color: black;
     background: crimson;
     border-radius: 10px;
@@ -352,6 +352,7 @@
 .medsoslist .wa {
     padding: 10px;
     color: black;
+    font-size: 5px;
     background: crimson;
     border-radius: 10px;
 }

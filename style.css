@@ -399,7 +399,7 @@
 
     .medsoslist .ig {
     padding: 15px;
-    font-size: 5px;
+    font-size: 15px;
     color: black;
     background: crimson;
     border-radius: 10px;
@@ -414,7 +414,7 @@
     .medsoslist .wa {
     padding: 10px;
     color: black;
-    font-size: 5px;
+    font-size: 15px;
     background: crimson;
     border-radius: 10px;
 }

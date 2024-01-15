@@ -294,6 +294,11 @@
     align-items: center;
     z-index: 100;
 }
+
+.header p {
+    padding-left:10px;
+}
+    
     .navbar {
     justify-content: space-between;
     align-items: center;

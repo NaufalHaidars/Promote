@@ -349,7 +349,11 @@
 }
 
 .isi h2 {
-    font-size: 10px;
+    font-size: 30px;
+}
+
+.isi p {
+    font-size: 15px;
 }
 
 .kolom1 {

@@ -10,7 +10,7 @@
     position: fixed;
     top: 0;
     left: 0;
-    width: 100%;
+    width: 85%;
     height: 15%;
     padding: 15px;
     background: black;
@@ -308,6 +308,34 @@
     padding: 10px;
     padding-right: 20px;
     color: whitesmoke;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    padding-top: 7%;
+    padding-bottom: 20px;
+}
+
+.home h1,h3 {
+    font-size: 150%;
+    line-height: 100%;
+    margin-left: 40px;
+    padding-bottom: 20px;
+}
+
+.home p {
+    font-size: 135%;
+    text-align: justify;
+    margin-right: 1%;
+    margin-left: 60px;
+}
+
+.home img {
+    width: 50%;
+    margin: 30px;
+    
 }
 
 .services {

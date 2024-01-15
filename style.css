@@ -320,3 +320,38 @@
     background: #f0f0f0;
     border-bottom: 2px solid #222;
 }
+.medsoslist {
+    display: flex;
+    padding-top: 20px;
+    margin: 0 10%;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+}
+
+.medsoslist .ig svg {
+    width: 15px;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.medsoslist .ig {
+    padding: 15px;
+    font-size: 15px;
+    color: black;
+    background: crimson;
+    border-radius: 10px;
+}
+
+.medsoslist .wa svg {
+    width: 15px;
+    margin: 0 0 0 0;
+    padding: 0;
+}
+
+.medsoslist .wa {
+    padding: 10px;
+    color: black;
+    background: crimson;
+    border-radius: 10px;
+}

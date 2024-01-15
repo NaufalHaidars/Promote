@@ -349,13 +349,13 @@
 }
 
 .isi h2 {
-    font-size: 30px;
+    font-size: 20px;
 }
 
 .isi p {
-    font-size: 20px;
+    font-size: 15px;
     padding: 1rem 2rem;
-    margin: 15px;
+    margin: 10px;
     background: #c9c9c9;
     border-radius: 5px;
 }

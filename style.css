@@ -400,6 +400,7 @@
     .medsoslist .ig {
     padding: 10px;
     font-size: 15px;
+    padding-left:10px;
     color: black;
     background: crimson;
     border-radius: 10px;
@@ -415,6 +416,7 @@
     padding: 10px;
     color: black;
     font-size: 15px;
+    padding-left: 10px;
     background: crimson;
     border-radius: 10px;
 }

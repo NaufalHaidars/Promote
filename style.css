@@ -299,12 +299,13 @@
     justify-content: space-between;
     align-items: center;
     padding: 10px;
-    font-size: 60%;
+    font-size: 70%;
     color: wheat;
 }
 
 .navbar a {
     justify-content: space-between;
     padding: 10px;
+    padding-right: 20px;
     color: whitesmoke;
 }
